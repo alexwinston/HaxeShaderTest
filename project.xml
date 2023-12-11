@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="ShaderTest" package="com.alexwinston.ShaderTest" version="1.0.0" company="OpenFL" />
+	<app main="Main" path="Export" file="BunnyMark" />
+	
+	<window width="800" height="600" fps="61" />
+	<window allow-high-dpi="false" />
+	
+	<source path="Source" />
+	
+	<define name="stats" if="html5" />
+	<define name="use_tilemap"/>
+	
+	<haxelib name="openfl" />
+	<haxelib name="openfl-glsl"/>
+	
+	<assets path="Assets" rename="assets" />
+
+	<config:ios deployment="12" />
+	<config:ios team-id="3L5SA3L5UU"/>
+	<config:ios package="com.alexwinston.ShaderTest"/>
+	<architecture exclude="armv7" if="ios" />
+	
+</project>
